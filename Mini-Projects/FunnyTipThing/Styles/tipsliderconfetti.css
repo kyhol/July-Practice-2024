@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tip-container {
+    text-align: center;
+}
+
+#tipSlider {
+    width: 300px;
+    margin: 20px 0;
+}
+
+#tipSlider::-webkit-slider-thumb {
+    background: currentColor;
+}
+
+#tipSlider::-moz-range-thumb {
+    background: currentColor;
+}
